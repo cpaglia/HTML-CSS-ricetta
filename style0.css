@@ -1,0 +1,40 @@
+/* Stile base per il corpo della pagina */
+body {
+    font-family: Arial, sans-serif; /* Imposta il font a Arial con un'alternativa sans-serif */
+    background-color: #f9f9f9; /* Colore di sfondo chiaro per la pagina */
+    color: #333; /* Colore del testo scuro per migliorare la leggibilità */
+    padding: 20px; /* Spazio interno intorno al contenuto */
+    max-width: 600px; /* Larghezza massima della pagina per migliorare la leggibilità */
+    margin: auto; /* Centra il contenuto orizzontalmente nella pagina */
+}
+
+/* Stile per i titoli principali */
+h1 {
+    text-align: center; /* Centra il testo del titolo */
+    color: #d2691e; /* Imposta un colore arancione scuro per il titolo */
+}
+
+/* Stile per i titoli delle sezioni */
+h2 {
+    color: #d2691e; /* Imposta un colore arancione scuro per il titolo delle sezioni */
+    border-bottom: 1px solid #d2691e; /* Aggiunge una linea sotto il titolo delle sezioni */
+    padding-bottom: 5px; /* Spazio sotto il titolo per separarlo dagli elementi successivi */
+}
+
+/* Stile per l'immagine del piatto */
+img {
+    display: block; /* Centra l'immagine al centro della pagina */
+    max-width: 100%; /* Imposta la larghezza massima dell'immagine per adattarsi al contenitore */
+    height: auto; /* Mantiene le proporzioni dell'immagine */
+    margin: 20px auto; /* Aggiunge spazio sopra e sotto e centra l'immagine */
+}
+
+/* Stile per le liste puntate e numerate */
+ul, ol {
+    padding-left: 20px; /* Spazio a sinistra per allineare correttamente gli elementi */
+}
+
+/* Stile per ogni elemento delle liste */
+li {
+    margin-bottom: 5px; /* Spazio sotto ogni elemento per una lettura più chiara */
+}
